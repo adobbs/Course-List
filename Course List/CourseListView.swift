@@ -30,7 +30,7 @@ struct CourseListView: View {
                                     .resizable()
                                     .scaledToFill()
                             default:
-                                Text("Image did not load")
+                                DefaultImageView()
                             }
                         }
                     }
